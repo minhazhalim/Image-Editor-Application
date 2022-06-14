@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>Image Editor Application</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js" defer></script>
+</head>
+<body>
+     <div class="editor">
+          <div class="toolbar">
+               <div class="toolbar-item"><input type="file" id="imageFileInput"></div>
+               <div class="toolbar-item">
+                    <label for="brightness" class="tool-label">brightness</label>
+                    <input type="range" class="tool-input" id="brightness" min="0" max="200">
+               </div>
+               <div class="toolbar-item">
+                    <label for="brightness" class="saturation">saturation</label>
+                    <input type="range" class="tool-input" id="saturation" min="0" max="200">
+               </div>
+               <div class="toolbar-item">
+                    <label for="blur" class="tool-label">blur</label>
+                    <input type="range" class="tool-input" id="blur" min="0" max="25">
+               </div>
+               <div class="toolbar-item">
+                    <label for="inversion" class="tool-label">inversion</label>
+                    <input type="range" class="tool-input" id="inversion" min="0" max="100">
+               </div>
+          </div>
+          <div class="image-area"><canvas id="canvas" width="500" height="500"></canvas></div>
+     </div>
+</body>
+</html>
