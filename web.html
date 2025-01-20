@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>Image Editor Application</title>
+     <link rel="stylesheet" href="styling.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css' integrity='sha512-UtLOu9C7NuThQhuXXrGwx9Jb/z9zPQJctuAgNUBK3Z6kkSYT9wJ+2+dh6klS+TDBCV9kNPBbAxbVD+vCcfGPaA==' crossorigin='anonymous'/>
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js' integrity='sha512-JyCZjCOZoyeQZSd5+YEAcFgz2fowJ1F1hyJOXgtKu4llIa0KneLcidn5bwfutiehUTiOuK87A986BZJMko0eWQ==' crossorigin='anonymous'></script>
+     <script src="application.js" defer></script>
+</head>
+<body>
+     <div class="wrapper">
+          <div class="editor-container">
+               <div class="image-container"><img src="" alt="" id="image"></div>
+               <input type="file" id="file" accept="image/*">
+               <label for="file">open a photo</label>
+               <div class="options-button hide">
+                    <button id="rotate-left"><img src="./icons/rotate-left.png" alt="Left Icon"></button>
+                    <button id="rotate-right"><img src="./icons/rotate-right.png" alt="Right Icon"></button>
+                    <button id="scale-X-button"><img src="./icons/flip-hori.png" alt="Horizontal Icon"></button>
+                    <button id="scale-Y-button"><img src="./icons/flip-ver.png" alt="Vertical Icon"></button>
+                    <button class="aspect-ratio-buttons">16:9</button>
+                    <button class="aspect-ratio-buttons">4:3</button>
+                    <button class="aspect-ratio-buttons">1:1</button>
+                    <button class="aspect-ratio-buttons">2:3</button>
+                    <button class="aspect-ratio-buttons">free</button>
+               </div>
+               <div class="action-buttons">
+                    <button class="hide" id="preview">preview</button>
+                    <a href="" class="hide" id="download">download</a>
+               </div>
+          </div>
+          <div class="preview-container"><img src="" alt="" id="preview-image"></div>
+     </div>
+</body>
+</html>
