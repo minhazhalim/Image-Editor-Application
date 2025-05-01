@@ -25,7 +25,9 @@ To run the project locally, follow these steps:
    cd your-repo-name
 ```
 5. **Open the Project Folder:**
+
    Open ```index.html``` file in your preferred web browser.
+   
 ## Screenshots
 ![screenshot-1](screenshot-1.png)
 ![screenshot-1](screenshot-2.png)
