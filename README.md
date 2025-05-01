@@ -1,4 +1,4 @@
-# Image-Editor-Application
+# Image Editor Application
 A lightweight, elegant image editor application offers essential image editing capabilities without any external dependencies.
 ## Overview
 A nice yet simple image web-based application that lets you perform basic image editing right in your browser. Designed with a clean and responsive interface, it’s perfect for quick adjustments and creative experiments without the overhead of external libraries or frameworks.
@@ -24,7 +24,8 @@ To run the project locally, follow these steps:
 ```bash
    cd your-repo-name
 ```
-5. **Open the app:** Open ```index.html``` in your Prefered Web Browser.
+5. **Open the Project Folder:**
+   Open ```index.html``` file in your preferred web browser.
 ## Screenshots
 ![screenshot-1](screenshot-1.png)
 ![screenshot-1](screenshot-2.png)
